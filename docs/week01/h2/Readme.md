@@ -1,0 +1,3 @@
+Flutter menerapkan Single Responsibility Principle dengan memisahkan secara tegas antara tanggung jawab pengelolaan konten dan penataan posisi pada tata letak. 
+Widget Text bertugas khusus untuk memproses dan menampilkan karakter teks beserta gayanya, tanpa perlu terbebani oleh logika penentuan lokasi di layar. 
+Dengan menjadikan Center sebagai widget terpisah, fungsi perataan posisi menjadi sangat fleksibel karena dapat membungkus elemen apa pun, seperti Column yang memuat jajaran widget PriceTag pada widget tree ini.
